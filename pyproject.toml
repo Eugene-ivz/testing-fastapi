@@ -1,0 +1,16 @@
+[project]
+name = "tapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.8",
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.3",
+    "pytest-mock>=3.14.0",
+    "ruff>=0.9.4",
+    "sqlalchemy>=2.0.37",
+    "uvicorn>=0.34.0",
+]
